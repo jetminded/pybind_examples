@@ -7,3 +7,5 @@ cd build
 
 cmake ..
 cmake --build .
+
+cp library.cpython-312-x86_64-linux-gnu.so ../library.so
