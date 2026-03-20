@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(pet_module)
+project(library)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -21,4 +21,4 @@ list(APPEND CMAKE_PREFIX_PATH ${PYBIND11_CMAKE_DIR})
 find_package(pybind11 REQUIRED)
 
 # Build module
-pybind11_add_module(pet_module pet.cpp)
+pybind11_add_module(library library.cpp)

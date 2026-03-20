@@ -1,7 +1,7 @@
 // Include library that allows embedding of pybind
 
 // into the engine
-#include <pybind11>
+#include <pybind11/pybind11.h>
 #include <string>
 namespace py = pybind11; // shorten what we need to type
 
